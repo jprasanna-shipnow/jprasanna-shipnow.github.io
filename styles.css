@@ -1,0 +1,33 @@
+/* ... existing styles ... */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer .footer-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
