@@ -1,33 +1,44 @@
-/* ... existing styles ... */
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer .footer-links {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 10px;
-}
-
-footer .footer-links li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-footer .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-footer .footer-links a:hover {
-    text-decoration: underline;
-}
-
-footer p {
-    font-size: 0.9rem;
-}
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    header {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .cta-button:hover {
+        background: #0056b3;
+    }
+    section {
+        padding: 20px;
+        margin: 20px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: #fff;
+    }
+    .qr-code {
+        margin-top: 20px;
+        width: 150px;
+        height: auto;
+    }
+    
